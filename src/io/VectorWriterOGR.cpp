@@ -33,7 +33,7 @@ namespace roofer {
 class VectorWriterOGR : public VectorWriterInterface {
   GDALDatasetUniquePtr poDS;
 
-  std::string srs = "EPSG:7415";
+  std::string srs = "EPSG:2154";
   std::string conn_string_ = "out";
   std::string gdaldriver_ = "GPKG";
   std::string layername_ = "geom";
